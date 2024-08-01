@@ -1,0 +1,54 @@
+body{
+    background-color: hsl(292, 16%, 49%);
+    
+    
+}
+.box{
+    width: 600px;
+    background-color: white;
+    margin-left: 440px;
+    padding: 4px 16px;
+    margin-bottom: 16px;
+    
+    
+
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.question{
+    padding: 1px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+    .answer {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+    }
+    
+    
+
+
+
+.down{
+    margin-right: 10px;
+    cursor: pointer;
+    transition:transform 0.2s;
+    
+}
+.down.active{
+    transform:rotate(-180deg) ;
+}
+.attribution{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
